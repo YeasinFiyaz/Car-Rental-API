@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Confirmation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Booking Confirmed!</h2>
+        <p>Your booking has been successfully placed.</p>
+        <p><strong>Fare:</strong> {{ fare }} BDT</p>
+        <p><strong>Booking ID:</strong> {{ booking_id }}</p>
+    </div>
+</body>
+</html>
